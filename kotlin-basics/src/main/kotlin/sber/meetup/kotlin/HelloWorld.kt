@@ -1,3 +1,4 @@
+// Kotlin
 package sber.meetup.kotlin
 
 fun main() {
