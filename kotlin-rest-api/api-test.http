@@ -1,0 +1,27 @@
+GET localhost:8080/persons
+
+###
+GET localhost:8080/persons/123
+###
+
+POST localhost:8080/persons
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 34
+}
+
+###
+
+PUT localhost:8080/persons/123
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 34
+}
+
+###
+
+DELETE localhost:8080/persons/123

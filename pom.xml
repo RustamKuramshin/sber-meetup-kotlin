@@ -16,6 +16,7 @@
 
     <modules>
         <module>kotlin-basics</module>
+        <module>kotlin-rest-api</module>
     </modules>
 
 </project>
